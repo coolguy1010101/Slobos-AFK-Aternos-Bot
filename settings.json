@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "Auto-Moderator",
   "bot-account": {
-    "username": "Slobot00",
-    "password": "",
+    "username": "automodv1",
+    "password": "e4n3l499",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "ROBLOXIA-HORRORSOFFI.aternos.me",
+    "port":  24461,
     "version": "",
     "try-creative": false
   },
@@ -29,11 +29,10 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 300,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "Running Auto-Mod V1 by abluewall",
+        "Making sure the server doesn't go down!"
       ]
     },
     "chat-log": true,
@@ -45,22 +44,22 @@
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
-      "speed": 3000
+      "radius": 12,
+      "speed": 800
     },
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 240
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval":280
     }
   },
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
@@ -74,11 +73,11 @@
   },
   "discord": {
     "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "webhookUrl": "https://discord.com/api/webhooks/1511134283853725768/i415OZB_p5MWg-spTac9FNqu0YqENqjNGtlScLnmcQiAAO4AXo3bl6M60JEUYhf9X5ug",
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
+      "chat": true
     }
   },
   "chat": {
